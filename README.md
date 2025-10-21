@@ -1,0 +1,3 @@
+## Requirement Analysis in Software Development.
+
+This repository captures the requirement analysis for an Airbnb-like application. It defines scope, goals, and constraints; consolidates functional and non-functional requirements; and provides user stories and acceptance criteria to align stakeholders. The materials here guide architecture, UX, implementation planning, and testing, serving as the single source of truth for delivery.
