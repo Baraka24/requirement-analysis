@@ -76,3 +76,36 @@ Typical deliverables: glossary, personas, user stories, acceptance criteria, fun
 - Obtaining formal sign-off and approval from key stakeholders
 - Ensuring requirements are verifiable, traceable, and measurable
 - Establishing a baseline for change control and version management
+
+
+### Types of Requirements
+
+#### Functional Requirements
+
+Functional Requirements define what the system must do—the specific behaviors, features, and functions that deliver value to users and support business processes. They describe inputs, outputs, data transformations, and user interactions.
+
+**Examples for Airbnb Booking Management:**
+
+- **Property Search and Filtering**: Users must be able to search for properties by location, dates, price range, number of guests, and amenities (WiFi, parking, pet-friendly).
+- **Booking Creation**: Guests must be able to select available dates, specify the number of guests, review pricing details, and submit a booking request to the host.
+- **Payment Processing**: The system must securely process payments via credit card, debit card, or digital wallets, and send payment confirmations to both guest and host.
+- **Booking Management**: Hosts must be able to view, accept, decline, or cancel booking requests, and guests must be able to modify or cancel their reservations according to the cancellation policy.
+- **Review and Rating System**: After checkout, guests must be able to leave reviews and ratings for properties, and hosts must be able to respond to reviews and rate guests.
+- **Notification System**: The system must send email and in-app notifications for booking confirmations, cancellations, payment receipts, upcoming check-ins, and review reminders.
+- **Calendar Synchronization**: Hosts must be able to block dates for unavailability and sync their calendar with external booking platforms to prevent double-bookings.
+
+#### Non-functional Requirements
+
+Non-functional Requirements define how the system performs its functions—the quality attributes, constraints, and operational characteristics that affect user experience, reliability, and maintainability. They cover performance, security, usability, scalability, and compliance.
+
+**Examples for Airbnb Booking Management:**
+
+- **Performance**: The property search page must load results within 2 seconds under normal load conditions, and booking confirmation must be processed within 3 seconds.
+- **Scalability**: The system must support up to 100,000 concurrent users during peak booking periods without performance degradation.
+- **Availability**: The booking platform must maintain 99.9% uptime, with planned maintenance windows scheduled during off-peak hours and communicated in advance.
+- **Security**: All payment transactions must be encrypted using TLS 1.3, personal data must comply with GDPR and CCPA regulations, and user authentication must support multi-factor authentication (MFA).
+- **Usability**: The booking workflow must be completable within 5 clicks, the interface must be intuitive for first-time users without requiring training, and the application must be accessible according to WCAG 2.1 Level AA standards.
+- **Reliability**: The system must implement automated data backups every 6 hours, maintain data consistency across distributed databases, and recover from failures within 15 minutes (RTO).
+- **Compatibility**: The platform must be responsive and function correctly across Chrome, Firefox, Safari, and Edge browsers, and provide native mobile applications for iOS and Android devices.
+- **Maintainability**: The codebase must follow established coding standards, include comprehensive unit test coverage (minimum 80%), and support zero-downtime deployments.
+
