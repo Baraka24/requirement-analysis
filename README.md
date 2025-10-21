@@ -109,3 +109,22 @@ Non-functional Requirements define how the system performs its functions—the q
 - **Compatibility**: The platform must be responsive and function correctly across Chrome, Firefox, Safari, and Edge browsers, and provide native mobile applications for iOS and Android devices.
 - **Maintainability**: The codebase must follow established coding standards, include comprehensive unit test coverage (minimum 80%), and support zero-downtime deployments.
 
+### Use Case Diagrams
+
+Use Case Diagrams are visual representations that illustrate the interactions between users (actors) and the system, highlighting the various use cases that define the system's functionality. They provide a high-level overview of the system's requirements and help stakeholders understand how users will interact with the system.
+
+#### Benefits of Use Case Diagrams:
+- **Clarity**: They simplify complex system functionalities into easily understandable visuals, making it easier for stakeholders to grasp the system's capabilities.
+- **Communication**: Use Case Diagrams facilitate discussions among stakeholders, developers, and designers by providing a common language and reference point.
+- **Requirement Validation**: They help in validating requirements by ensuring that all necessary interactions are captured and understood.
+- **Scope Management**: Use Case Diagrams assist in defining the scope of the project by clearly outlining what the system will and will not do.
+
+#### Guest Use Cases:
+1. **Search Properties**: Allows guests to search for available properties based on criteria such as location, dates, and number of guests.
+2. **View Property Details**: Enables guests to view detailed information about a specific property, including descriptions, photos, amenities, and reviews.
+3. **Create Account/Login**: Allows guests to create a new account or log in to an existing account to access the system's features.
+4. **Book Property**: Enables guests to book a property for a specified period.
+5. **Make Payment**: Allows guests to make payments for their bookings through the integrated payment gateway.
+6. **Manage Bookings**: Enables guests to view, modify, or cancel their existing bookings.
+7. **Write Reviews**: Allows guests to write reviews and provide feedback on properties they have stayed in.
+8. **Receive Notifications**: Enables guests to receive notifications about booking confirmations, updates, and other relevant information.
