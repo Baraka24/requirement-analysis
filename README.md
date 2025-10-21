@@ -128,3 +128,46 @@ Use Case Diagrams are visual representations that illustrate the interactions be
 6. **Manage Bookings**: Enables guests to view, modify, or cancel their existing bookings.
 7. **Write Reviews**: Allows guests to write reviews and provide feedback on properties they have stayed in.
 8. **Receive Notifications**: Enables guests to receive notifications about booking confirmations, updates, and other relevant information.
+
+### Acceptance Criteria
+
+Acceptance Criteria are specific, measurable conditions that a feature or user story must satisfy to be considered complete and accepted by stakeholders. They serve as a contract between the development team and stakeholders, defining the boundaries of functionality and providing clear pass/fail guidelines for testing and validation.
+
+#### Importance of Acceptance Criteria in Requirement Analysis:
+
+- **Establishes Clear Definition of Done**: Acceptance criteria eliminate ambiguity by precisely defining what "complete" means for each feature, preventing misunderstandings between developers, testers, and stakeholders.
+- **Enables Effective Testing**: They provide the foundation for creating test cases and scenarios, ensuring comprehensive test coverage and objective validation of functionality.
+- **Facilitates Accurate Estimation**: Well-defined acceptance criteria help development teams better estimate effort and complexity, leading to more reliable sprint planning and delivery commitments.
+- **Reduces Rework and Scope Creep**: By establishing boundaries upfront, acceptance criteria prevent feature bloat and minimize costly rework caused by unclear or changing expectations.
+- **Supports Stakeholder Alignment**: They ensure all parties share the same understanding of what will be delivered, reducing conflicts and promoting consensus.
+- **Enables Early Validation**: Acceptance criteria can be reviewed and approved before development begins, catching issues in requirements before they become expensive defects.
+
+#### Example: Acceptance Criteria for Checkout Feature
+
+**Feature**: Guest Checkout and Payment Processing
+
+**Acceptance Criteria**:
+
+1. **Booking Summary Display**
+    - Given a guest is on the checkout page, when the page loads, then the system must display property name, check-in/check-out dates, number of guests, nightly rate, total nights, subtotal, service fee, taxes, and grand total.
+
+2. **Payment Method Selection**
+    - Given a guest is ready to pay, when they view payment options, then the system must support credit card, debit card, PayPal, and Apple Pay as payment methods.
+
+3. **Payment Information Validation**
+    - Given a guest enters payment details, when they submit the form, then the system must validate card number format, expiration date (not expired), CVV (3-4 digits), and billing address completeness before processing.
+
+4. **Secure Payment Processing**
+    - Given valid payment information is submitted, when the payment is processed, then all transaction data must be encrypted using TLS 1.3 and handled via PCI-DSS compliant payment gateway.
+
+5. **Booking Confirmation**
+    - Given a successful payment, when the transaction completes, then the system must generate a unique booking confirmation number, send confirmation emails to both guest and host within 30 seconds, and update the property calendar to mark dates as booked.
+
+6. **Payment Failure Handling**
+    - Given a payment fails, when the error occurs, then the system must display a clear error message indicating the reason (insufficient funds, invalid card, etc.), retain the entered booking details, and allow the guest to retry with a different payment method without re-entering booking information.
+
+7. **Cancellation Policy Acknowledgment**
+    - Given a guest is reviewing their booking, when they reach the payment step, then the system must display the applicable cancellation policy and require explicit acknowledgment (checkbox) before allowing payment submission.
+
+8. **Receipt Generation**
+    - Given a completed booking, when payment is confirmed, then the system must generate a downloadable PDF receipt containing booking reference, itemized charges, payment method (last 4 digits only), transaction date, and host contact information.
