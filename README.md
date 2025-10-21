@@ -37,3 +37,42 @@ Core activities:
 - Management: prioritization, baselining, versioning, and end-to-end traceability.
 
 Typical deliverables: glossary, personas, user stories, acceptance criteria, functional and non-functional requirements, and a traceability matrix.
+
+### Key Activities in Requirement Analysis
+
+**Requirement Gathering**
+- Collecting high-level business needs, constraints, and objectives from stakeholders and existing documentation
+- Identifying sources of requirements including business stakeholders, end users, regulatory bodies, and legacy systems
+- Assembling background materials such as business cases, market research, competitor analysis, and existing system documentation
+- Establishing the project context, scope boundaries, and initial assumptions
+
+**Requirement Elicitation**
+- Conducting structured interviews and workshops with stakeholders to uncover detailed needs and expectations
+- Facilitating brainstorming sessions and focus groups to generate ideas and identify pain points
+- Observing users in their work environment to understand actual workflows and unspoken requirements
+- Using questionnaires and surveys to gather input from large or distributed user groups
+- Analyzing existing documentation, processes, and systems to extract implicit requirements
+- Creating prototypes and mockups to help stakeholders articulate and refine their needs
+
+**Requirement Documentation**
+- Recording requirements in a clear, consistent, and structured format (user stories, use cases, or formal specifications)
+- Writing detailed descriptions with acceptance criteria, preconditions, postconditions, and business rules
+- Creating a comprehensive glossary to define domain terminology and ensure common understanding
+- Organizing requirements into logical categories (functional, non-functional, technical, business)
+- Maintaining metadata such as priority, source, rationale, and dependencies for each requirement
+
+**Requirement Analysis and Modeling**
+- Analyzing requirements for completeness, consistency, feasibility, and testability
+- Identifying conflicts, gaps, and ambiguities that need resolution
+- Prioritizing requirements based on business value, risk, dependencies, and stakeholder input
+- Creating visual models such as use case diagrams, process flows, data models, and state diagrams
+- Decomposing high-level requirements into more detailed, implementable specifications
+- Assessing technical and operational feasibility of proposed requirements
+
+**Requirement Validation**
+- Reviewing requirements with stakeholders to confirm accuracy and alignment with business goals
+- Conducting walkthroughs and inspection sessions to identify errors, omissions, and inconsistencies
+- Validating requirements against acceptance criteria and quality standards
+- Obtaining formal sign-off and approval from key stakeholders
+- Ensuring requirements are verifiable, traceable, and measurable
+- Establishing a baseline for change control and version management
